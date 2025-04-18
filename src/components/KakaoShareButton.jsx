@@ -7,8 +7,6 @@ const KakaoShareButton = () => {
   const url = "https://mbti-renewal.netlify.app/";
   const resultURL = window.location.href;
 
-  console.log("test: ", url, resultURL);
-
   useEffect(() => {
     Kakao.cleanup();
     Kakao.init("75f447389e58660286ad1cb6fc64aeb1");

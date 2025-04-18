@@ -94,7 +94,6 @@ const Result = () => {
     setResultData(result);
   }, [mbti]);
 
-  console.log(resultData);
   return (
     <Wrapper>
       <Header>예비집사 판별기</Header>
